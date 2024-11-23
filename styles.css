@@ -12,6 +12,14 @@ body {
   line-height: 1.6;
 }
 
+/* Contêiner principal */
+.main-container {
+  display: flex; /* Ativa o layout lado a lado */
+  gap: 20px; /* Espaçamento entre os elementos */
+  justify-content: space-between; /* Distribui espaço entre os elementos */
+  padding: 20px;
+}
+
 /* Cabeçalho */
 header {
   background-color: #6A5ACD;
@@ -40,7 +48,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background-color: #f1f0fa;
+  background-color: #6A5ACD;
   text-align: center;
   padding: 100px 20px;
 }
@@ -51,21 +59,21 @@ header nav ul li a:hover {
   border-radius: 50%; /* Deixa a imagem redonda */
   margin-bottom:20px;
   object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente */
-  border: 3px solid #6A5ACD; /* Adiciona uma borda roxa */
+  border: 3px solid #f1f0fa; /* Adiciona uma borda roxa */
 }
 
-.hero h1 {
+.hero h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .hero span {
-  color: #6A5ACD;
+  color: #f1f0fa;
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #666;
+  color: #383357;
 }
 
 /* Seções */
@@ -73,7 +81,7 @@ section {
   padding: 50px 20px;
 }
 
-section h2 {
+section h1 {
   font-size: 2rem;
   color: #6A5ACD;
   text-align: center;
@@ -96,40 +104,18 @@ section ul li {
   font-size: 1rem;
   color: #666;
 }
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.8rem;
-  background: #6A5ACD;
-  color: white;
+
+/* Sobre Mim e Objetivos */
+.info {
+  flex: 2; /* Define que esta seção ocupe 2 partes do espaço */
+  display: flex;
+  flex-direction: column; /* Alinha os itens em uma coluna */
+  gap: 20px;
 }
 
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-main {
+.info > div {
+  background-color: #f1f0fa;
   padding: 20px;
-  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
