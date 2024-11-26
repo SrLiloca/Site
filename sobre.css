@@ -1,0 +1,92 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Contêiner principal */
+  .main-container {
+    display: flex; /* Ativa o layout lado a lado */
+    gap: 20px; /* Espaçamento entre os elementos */
+    justify-content: space-between; /* Distribui espaço entre os elementos */
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #867bcc;
+    padding: 1rem 0;
+    text-align: r;
+  }
+  
+  header {
+    background-color: #867bcc;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Seção Sobre Mim */
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh; /* Ocupa a tela inteira */
+}
+
+.foto {
+    flex: 1;
+    width: 160px; /* Ajuste o tamanho conforme necessário */
+    height: 160px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    margin-bottom:10px;
+    text-align: center;
+    object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente */
+    border: 3px solid #867bcc; /* Adiciona uma borda roxa */
+}
+
+h1 {
+    font-size: 2rem;
+    color: #867bcc;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #7d7a8f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}

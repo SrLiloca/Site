@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre Mim</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="projetos.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="sobre" class="sobre">
-    <h2>Sobre Mim</h2>
-    <p>
-      Sou uma pessoa apaixonada pela arte e criar coisas novas. Estou sempre em busca de novos desafios
-      e oportunidades para expandir meus conhecimentos e ajudar outras pessoas. Navegue pelo
-      site para saber mais sobre mim!
-    </p>
-  </section>
+ 
+    <section class="projects">
+        <div class="projects-header">
+            <h1 class="projects-title">MEUS PROJETOS</h1>
+            <p class="projects-subtitle">Aqui estão alguns dos projetos que desenvolvi.</p>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-item">
+                <h2 href="https://make4u.onrender.com/home" class="project-title">MAKE4U - Em andamento </h2>
+                <img src="teste/make4u.png" alt="Imagem do Projeto 01" class="project-image">
+                <p class="project-description">
+                    Desenvolvido com Python usando o FastAPI de framework, JavaScript, CSS e HTML.
+                </p>
+            </div>
 
 
-  <!-- Objetivos -->
-  <section id="objetivos" class="objetivos">
-    <h2>Objetivos</h2>
-    <p>
-      Meu objetivo é oportunidade no mercado de trabalho, onde eu possa aplicar meus 
-      conhecimentos adquiridos durante minha formação e contribuir para o crescimento 
-      da empresa. Acredito que com determinação e foco posso alcançar grandes coisas no futuro.
-    </p>
-  </section>
+            <div class="project-item">
+                <h2 class="project-title">Portifólio - Concluído</h2>
+                <img src="teste/sitepessoal.png" alt="Imagem do Projeto 02" class="project-image">
+                <p class="project-description">
+                    Desenvolvido com CSS e HTML.
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

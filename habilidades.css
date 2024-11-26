@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #867bcc;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.habilidades {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.habilidades h1 {
+    font-size: 2rem;
+    color: #867bcc;
+    margin-bottom: 05px;
+}
+
+.habilidades .subtitulo {
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.lista-habilidades {
+    margin-top: 20px;
+}
+
+.habilidade {
+    margin-bottom: 25px;
+}
+
+.habilidade span {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.barra {
+    width: 100%;
+    height: 5px;
+    background-color: #beb8e1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.preenchimento {
+    height: 100%;
+    background-color: #867bcc;
+    border-radius: 5px;
+}
